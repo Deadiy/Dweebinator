@@ -1,0 +1,68 @@
+# Folders
+unorganized_folder: "/userdata/Dweebinator/unorganized_roms"  # Folder for unorganized ROMs
+roms_folder: "/userdata/roms"  # Destination folder for organized ROMs
+
+# ROM System Mapping
+rom_system_mapping:
+  nes: ["nes"]
+  sfc: ["snes"]
+  smc: ["snes"]
+  gba: ["gba"]
+  gbc: ["gbc"]
+  gb: ["gb"]
+  n64: ["n64"]
+  z64: ["n64"]
+  zip: ["arcade", "neogeo"]
+  7z: ["arcade", "neogeo"]
+  32x: ["32x"]
+  a26: ["atari2600"]
+  a52: ["atari5200"]
+  a78: ["atari7800"]
+  lynx: ["atarilynx"]
+  j64: ["c64"]
+  crt: ["c64"]
+  dsk: ["amstradcpc"]
+  fba: ["fba"]
+  pce: ["pcengine"]
+  sgx: ["supergrafx"]
+  scd: ["segacd"]
+  sms: ["mastersystem"]
+  gen: ["megadrive"]
+  md: ["megadrive"]
+  iso: ["dreamcast", "playstation", "saturn", "psp"]
+  cdi: ["dreamcast"]
+  chd: ["dreamcast", "saturn", "playstation"]
+  psx: ["playstation"]
+  cue: ["playstation", "saturn"]
+  bin: ["playstation", "saturn"]
+  nds: ["nds"]
+  3ds: ["3ds"]
+  cia: ["3ds"]
+  nsp: ["switch"]
+  xci: ["switch"]
+  wii: ["wii"]
+  wbfs: ["wii"]
+  gcm: ["gamecube"]
+  gdi: ["dreamcast"]
+  tap: ["zx81", "zxspectrum"]
+  tzx: ["zxspectrum"]
+  z80: ["zxspectrum"]
+  atr: ["atari800"]
+  d64: ["c64"]
+  prg: ["c64"]
+  img: ["3do", "saturn"]
+  nrg: ["dreamcast", "saturn"]
+  ccd: ["dreamcast", "saturn", "playstation"]
+  gg: ["gamegear"]
+  ngp: ["ngp"]
+  wsc: ["wonderswan"]
+  ws: ["wonderswan"]
+  vmu: ["dreamcast"]
+
+# Options
+recursive: true  # Set to true to search subfolders recursively
+checksum_verification: true  # Set to true to enable checksum verification
+delete_source_files: false  # Set to true to delete source files after successful move
+
+# Advanced
+reboot_args: "" # Optional: Add any additional arguments for the 'reboot' command
